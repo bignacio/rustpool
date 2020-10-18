@@ -1,0 +1,23 @@
+[package]
+name = "rustpool"
+version = "0.0.1-beta"
+authors = ["Bira Ignacio <bira@duck.com>"]
+edition = "2018"
+license-file = "LICENSE"
+description="A data and thread pool library for Rust"
+repository = "https://github.com/bignacio/rustpool"
+
+[dependencies]
+libc = "0.2"
+
+[[example]]
+name="blocking_queue"
+crate-type=["bin"]
+
+[[example]]
+name="atomic_queue"
+crate-type=["bin"]
+
+[[example]]
+name="thread_pool"
+crate-type=["bin"]
