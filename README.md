@@ -1,6 +1,6 @@
 # Rustpool
 
-A Rust create for thread and object pooling.
+A Rust crate for thread and object pooling.
 
 
 ## Goals
